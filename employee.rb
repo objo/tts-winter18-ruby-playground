@@ -1,3 +1,9 @@
+module Hello
+  def say_hello
+    puts "Hello!!"
+  end
+end
+
 module Payroll
   class Employee
     include Hello
